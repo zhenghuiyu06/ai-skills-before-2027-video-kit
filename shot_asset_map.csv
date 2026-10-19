@@ -1,0 +1,23 @@
+beat_id,script_anchor,preferred_asset_id,backup_asset_id,visual_action,on_screen_text,illustrative_label_needed,editor_note
+01,Imagine an AI draft saying,GFX-01,A06,Mock update card 'Website launches FRIDAY' + newer message 'Tuesday — only if testing is done' (condition highlighted) (icons: A06;A01),Update draft: launches Friday | Newer: Tuesday only if testing is done,yes,Keep Friday/Tuesday + condition legible on phone (≥48px).
+02,Now you are back in the messages,GFX-02,A02,"Scroll/search through mock thread, magnifier sweeping, 'Safe to send?' question (icons: A02)",Safe to send?,yes,
+03,Before 2027 I would focus,GFX-03,A07,Four-step route: 1 Prompting → 2 Research → 3 Automation → 4 Agents (step 4 greyed 'later') (icons: A07),Prompting → Research → Automation → Agents (later),no,Agents last; reuse as chapter marker for each skill.
+04,You have a shared Google Doc,GFX-04,A04,Split screen: mock shared doc 'Launch: Friday' vs mock thread 'Tuesday if testing done' (icons: A04;A06),Doc: Friday · Thread: Tuesday (if testing done),yes,
+05,Find the launch date. Quote,GFX-05,A07,Prompt card types on; highlight Quote / Author / Date / Disagreement / 'Do not make a decision yourself.' (icons: A07),Full prompt text from script,yes,
+06,Did it quote a message?,GFX-06,A05,AI answer beside source message; checklist: quoted? author? Tuesday condition? — condition row flagged (icons: A05),Did it quote? Did it skip 'Tuesday only works if testing is done'?,yes,
+07,Research is the second skill,GFX-07,A02,Answer with citation link → click opens mock source page; claim vs source side-by-side (icons: A02),A link is not a check. Read the source.,yes,
+08,A twenty-dollar monthly price,GFX-08,A08,Mock pricing card 'Vendor A: $20/mo*' expands to '*billed annually $240 upfront' + feature row ✗ (icons: A08),$20/month ≠ monthly billing? Feature included?,yes,Fictional 'Vendor A'; never a real vendor or price.
+09,Friday comes again,GFX-09,A06,Calendar loop: Friday → copy/paste animation → Friday again (icons: A06),Friday again. Copying again.,yes,
+10,"For the copying, you can use",GFX-10,A03,Diagram: Form submitted → Trigger → Spreadsheet row; label 'Make · Zapier · n8n' as plain text (icons: A03),Trigger: form submitted → new row,yes,No product logos; names as text only; do not imply integrations were tested.
+11,Submit a test entry,GFX-11,A03,"Test entry 'Test Person / test@example.com' lands in matching columns, check appears (icons: A03;A08)",Test entry → right columns ✓,yes,
+12,You might find that you don't need AI,GFX-12,A08,"Same diagram, an 'AI step' slot crossed out, still green (icons: A08)",No AI step needed,yes,
+13,keep the original answer beside it,GFX-13,A03,Original long response | optional AI summary; then blank submission → empty row flagged; duplicate → two identical rows flagged (icons: A03;A05),Blank test · Duplicate test,yes,Both blank and duplicate tests must be visible.
+14,arrange access to the relevant messages,GFX-14,A05,"Connection panel: Messages ✓ connected, Documents ⚠ needs access; report stamped DRAFT (icons: A05)",Connect one at a time · Report: DRAFT,yes,DRAFT stamp must stay on screen.
+15,Use the revised schedule.,GFX-15,A07,"Message 'Use the revised schedule.' (no link) → agent searches files schedule_v1, v2, v2_final; compares (icons: A07;A04;A02)",No link → agent searches & compares,yes,
+16,which version it picked,GFX-16,A04,Selected version highlighted + evidence trail list + Tuesday testing condition shown (icons: A04;A01),Picked: schedule_v2 · Evidence · Condition: testing,yes,
+17,A fixed workflow could handle parts,GFX-17,A07,Two lanes: fixed planned path vs agent choosing next file; both labeled useful (icons: A07),Planned path vs chosen next step,yes,
+18,Find the conflicting dates,GFX-18,A07,Task card: Find conflicting dates ✓ Return evidence ✓ Leave deadline ✗ Don't send update ✗ (icons: A07),Narrow task,yes,Show both 'leave deadline' and 'do not send'.
+19,whether it missed a file,GFX-19,A05,Reviewer view: file list with one 'Couldn't open' file the agent's confident answer didn't mention (icons: A05),Missed a file it couldn't open?,yes,Inaccessible-file review is required by brief.
+20,If your current automation already,GFX-20,A08,Working automation tile stays; 'Add agent?' button with 'Only if needed' (icons: A08),Works? Keep it.,yes,
+21,pull up a task from last week,GFX-21,A08,Last week's task → fix becomes prompt requirement → test on Example 2 (icons: A08),One good answer is not a test,yes,
+22,What are you still doing by hand?,GFX-22,,End card: 'What are you still doing by hand?' + comment prompt with apps,Comment: one task + the apps involved,no,Not illustrative; real CTA.
