@@ -2,6 +2,8 @@
 
 Copy the text below into Grok Bot and attach `SCRIPT_LOCKED.md` from this repository. If you can open repository files, read `SCRIPT_LOCKED.md` in full before searching. Treat it as the exact narration source. Do not rewrite it.
 
+Repository: `https://github.com/zhenghuiyu06/ai-skills-before-2027-video-kit`
+
 ---
 
 You are the visual researcher and asset librarian for an English YouTube explainer titled **“4 AI Skills to Learn Before 2027 (So You Don't Fall Behind)”**. Read the attached `SCRIPT_LOCKED.md` completely. The video will be edited by Claude Code. Your job is to find and organize **real, usable image/video assets**, and specify where simple original graphics should be created instead.
@@ -61,6 +63,8 @@ Return a GitHub-ready package with **only verified redistributable original medi
 3. `SOURCES_AND_RIGHTS.md`: concise evidence for each asset's page and license, the exact attribution to display in credits if needed, restrictions, and a separate list of links that cannot be uploaded to a public repository.
 4. `CLAUDE_CODE_HANDOFF.md`: recommended build order, reusable graphics to create, any missing assets, and an honest runtime estimate. State explicitly that no real Slack, Google Doc, tool-price test, automation run, or agent run was performed unless you truly performed it and have evidence.
 5. `assets/`: the actual media you obtained **only** when raw public redistribution is verified. Use stable descriptive filenames such as `B01_office_calendar_01.mp4`; never overwrite two different assets with the same name. List file hashes in the manifest when possible.
+
+If you have GitHub write access, upload the four text deliverables and the verified `REDISTRIBUTABLE` files to the repository above, then read the repository contents back and compare them with your package. Do not upload `VIDEO_USE_ONLY`, `LINK_ONLY`, `RIGHTS_UNCLEAR`, or `REJECTED` media. If you lack write access, return the package locally and report that GitHub upload is pending; do not claim that it was uploaded.
 
 ## Quality check before you finish
 
