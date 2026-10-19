@@ -1,0 +1,7 @@
+# Prompt for Claude Code after Grok Bot finishes
+
+Copy this into Claude Code **after** the Grok Bot asset package is present in the repository:
+
+> Build the complete 16:9 English YouTube video for “4 AI Skills to Learn Before 2027 (So You Don't Fall Behind)” from `https://github.com/zhenghuiyu06/ai-skills-before-2027-video-kit`. Read `README.md`, `SCRIPT_LOCKED.md`, `GROK_BOT_ASSET_PROMPT.md`, `asset_manifest.csv`, `shot_asset_map.csv`, `SOURCES_AND_RIGHTS.md`, and `CLAUDE_CODE_HANDOFF.md`. Inspect every actual asset and its rights status before using it. Keep narration wording and order exactly as in `SCRIPT_LOCKED.md`. Align the 22 visual beats to the actual voice track. Use only verified video-use assets; create original, visibly illustrative mock interfaces for the hypothetical Slack, Google Doc, AI answer, workflow, and agent scenes. Do not portray fictional messages, prices, tool runs, or outcomes as real tests. Render a short timing and style sample first, report the measured voice duration and whether the current script can naturally reach 7–9 minutes, then produce the full editable project, 1080p MP4, captions, shot list, final asset/attribution manifest, and QA report. Do not pad the video to reach a target duration or rewrite the narration without my approval. Check the final export and provide exact file paths.
+
+The package currently contains only the narration and research instructions. Wait for the Grok Bot outputs before running this production prompt.
