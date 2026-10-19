@@ -6,6 +6,7 @@ This public repository is a handoff between Grok Bot (asset research) and Claude
 
 - `SCRIPT_LOCKED.md` — the supplied English narration. Keep its spoken text unchanged unless the creator approves a revision.
 - `GROK_BOT_ASSET_PROMPT.md` — copy into Grok Bot and attach the locked script. Grok Bot should return a rights-checked asset package and a beat-level map.
+- `CLAUDE_CODE_START_HERE.md` — copyable production instruction for Claude Code once Grok Bot's outputs are present.
 
 No third-party media has been vetted or uploaded yet. The `assets/` folder should contain only files whose raw redistribution on a public GitHub repository has been verified. Other usable media belongs in a link-only or local-only list with its exact license conditions.
 
